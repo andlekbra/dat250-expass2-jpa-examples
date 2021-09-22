@@ -22,7 +22,7 @@ source project.
 - Inspected database and could not find the expected join table between People and Family since the mappedby property is set in Family.
 - Moved @OneToMany annotation from field (as in tutorial) to the get method. Deleted the database and ran the tests again. All tests passed.
 
-![People](Screenshots\PeopleDiagram.JPG)
+![People](./Screenshots/PeopleDiagram.JPG)
 
 ## Experiment 2: Banking/Credit Card example JPA
 - created project using maven template in vscode. In the last example I had some problems with paths and folder structure that seems to be important in java/maven. Have not investigated this further.
@@ -30,7 +30,7 @@ source project.
 - Implemented example object world in junit test. Verified results by inspecting database using Dbeaver.
 - Tested objectlink between person/address by asserting that the person in address was the same as retrieved from Person table.
 
-![Banking diagram](Screenshots\BankingDiagram.JPG)
+![Banking diagram](./Screenshots/BankingDiagram.JPG)
 
 ## Problems and things to remember:
 - I should use the maven and java tool in VS code to make sure the project is properly organized
