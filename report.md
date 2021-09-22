@@ -14,3 +14,13 @@ Family
 - Tests failed on assertion of correct number of People in Family
 - Inspected database and could not find the expected join table between People and Family since the mappedby property is set in Family.
 - Moved @OneToMany annotation from field (as in tutorial) to the get method. Deleted the database and ran the tests again. All tests passed.
+
+Banking
+- created project using maven template in vscode. In the last example I had some problems with paths and folder structure that seems to be important in java/maven. Have not investigated this further.
+- Created classes according to class diagram.
+- Implemented example object world in junit test. Tested that objectlinks are correct by retrieving objects and compare with the id of the objects I persisted. There are a probably a more efficient way of testing this.
+
+
+Problems and things to remember:
+- I should use the maven and java tool in VS code to make sure the project is properly organized
+- 
